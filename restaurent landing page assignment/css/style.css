@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000000, #000000);
+    opacity: .4;
+    z-index: -2;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 47px 0
+}
+
+nav .logo img {
+    width: 61%;
+    cursor: pointer;
+}
+
+.navs ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navs ul li {
+    text-decoration: none;
+    gap: 63px;
+    list-style: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffc233;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.navs ul li:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.btn {
+    font-family: "Red Rose";
+    background-color: #ff505f;
+    padding: 6px 27px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #ff505f;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #ffc233;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 47px;
+    letter-spacing: 4px;
+}
+
+.big-btn {
+    padding: 12px 35px;
+}
+
+.scroll img {
+    position: fixed;
+    width: 115px;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
