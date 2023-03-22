@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+}
+
+.container .btns button,
+.container .btns p {
+    margin: 0 10px;
+}
+
+#show-number {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+button {
+    padding: 5px 10px;
+}

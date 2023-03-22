@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick</title>
+</head>
+
+<body>
+    <p>click here</p>
+    <script>
+        let click = document.querySelector('p');
+        click.addEventListener('click', function() {
+            click.innerText = "Don't click"
+        })
+    </script>
+</body>
+
+</html>
