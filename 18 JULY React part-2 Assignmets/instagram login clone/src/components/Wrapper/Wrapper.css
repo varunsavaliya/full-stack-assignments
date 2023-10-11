@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    height: 95vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    opacity: 90%;
+    max-width: fit-content;
+    padding: 55px;
+}
+
+.fields-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-text{
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.login-text a{
+   text-decoration: none;
+   color: #5b51d8;
+   cursor: pointer;
+}

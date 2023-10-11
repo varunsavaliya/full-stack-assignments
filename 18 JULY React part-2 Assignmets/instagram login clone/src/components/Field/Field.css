@@ -1,0 +1,9 @@
+.field{
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0;
+    min-width: 240px;
+    font-family: 'Poppins', sans-serif;
+}
