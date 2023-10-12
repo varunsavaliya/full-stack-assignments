@@ -1,0 +1,9 @@
+h1{
+    color: rebeccapurple;
+}
+
+.movie-img{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
