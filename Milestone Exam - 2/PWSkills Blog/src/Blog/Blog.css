@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid rgb(115, 115, 115);
+}
+
+.blog-header {
+  background: #0d81c2;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.blog-details {
+  color: white;
+}
+
+.blog-img {
+  width: 500px;
+  height: auto;
+  border-radius: 25px;
+  object-fit: cover;
+}

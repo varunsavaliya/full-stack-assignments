@@ -1,0 +1,7 @@
+.img{
+    height: 261px;
+    object-fit: cover;
+    margin: 12px;
+    width: inherit !important;
+    border-radius: 6px;
+}
