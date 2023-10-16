@@ -1,0 +1,12 @@
+.image {
+  height: 280px;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  transition: transform 0.3s;
+}
+
+.image-wrapper:hover {
+  transform: scale(1.05);
+}
